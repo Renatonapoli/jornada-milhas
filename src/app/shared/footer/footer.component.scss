@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  position: absolute;
+  min-height: 20vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10vw;
+  bottom: 0px;
+  background: black;
+  color: white;
+
+
+  section {
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    p {
+      margin-left: 10px;
+      gap: 10px 0;
+    }
+
+    .links {
+      margin-left: 18px;
+
+      a {
+        margin-right: 8px;
+      }
+    }
+
+  }
+
+}
