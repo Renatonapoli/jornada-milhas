@@ -10,6 +10,8 @@ import { CardComponent } from './shared/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +19,8 @@ import { MatButtonModule } from '@angular/material/button';
     FooterComponent,
     BannerComponent,
     CardComponent,
+    ContainerComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
